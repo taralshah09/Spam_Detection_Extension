@@ -1,3 +1,8 @@
+## Demo
+https://github.com/user-attachments/assets/ce0ea6f8-8fa4-4fc3-ac5f-51586456d646
+
+---
+
 ## How to run the server?
 
 Follow these steps to set up and run the Spam Detection Tool:
