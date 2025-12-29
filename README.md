@@ -11,21 +11,28 @@ https://github.com/user-attachments/assets/ce0ea6f8-8fa4-4fc3-ac5f-51586456d646
 
 Follow these steps to set up and run the Spam Detection Tool:
 
-1. **Create and activate a virtual environment** (if it doesn't exist):
-   - Create: `python -m venv env`
-   - Activate: `env\Scripts\activate` (on Windows)
+1. **Create a virtual environment** (if it doesn't exist):
+   ```
+   python -m venv env
+   ```
 
-2. **Install the required dependencies** (if not done already):
+2. **Activate the virtual environment**:
+   ```
+   env\Scripts\activate
+   ```
+   (on Windows)
+
+3. **Install the required dependencies**:
    ```
    pip install -r requirements.txt
    ```
 
-3. **Start the server**:
+4. **Start the server**:
    ```
    uvicorn main:app --reload
    ```
 
-4. **Set up the Chrome extension**:
+5. **Set up the Chrome extension**:
    - Copy the `chrome-extension` folder to a different location on your PC.
    - Load the unpacked extension in your browser (go to chrome://extensions/, enable "Developer mode", and click "Load unpacked" selecting the folder).
    - You're good to go!
